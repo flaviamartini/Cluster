@@ -1,0 +1,42 @@
+.user-container {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.efect :hover {
+    color: springgreen !important;
+    border-color: springgreen !important;
+    opacity: 0.8 !important;
+}
+
+.profile-rail-card__member-photo {
+    border: 2px solid #fff;
+    box-shadow: inset 0 1.5px 3px 0 rgba(0, 0, 0, .15), 0 1.5px 3px 0 rgba(0, 0, 0, .15);
+    margin: 0px auto 12px;
+}
+
+.EntityPhoto-circle-5 {
+    border: 1px solid transparent;
+    border-radius: 49.9%;
+}
+
+.EntityPhoto-circle-5,
+.EntityPhoto-circle-5-ghost-person {
+    width: 65px;
+    height: 65px;
+    box-sizing: border-box;
+    background-clip: content-box;
+    position: absolute;
+    left: 90%;
+    transform: translate(-50%, -50%);
+}
+
+.mat-tab-header,
+.mat-tab-nav-bar {
+    border-bottom: 0px solid rgba(0, 0, 0, .12) !important;
+}

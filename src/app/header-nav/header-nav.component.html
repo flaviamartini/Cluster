@@ -1,0 +1,10 @@
+<div style="margin-top:30px">
+    <nav mat-tab-nav-bar class="efect">
+        <img height="35" width="35" src="https://icon-icons.com/icons2/615/PNG/256/Spotify_icon-icons.com_56577.png">
+        <a mat-tab-link *ngFor="let link of links" (click)="activeLink = link" [active]="activeLink == link"> {{link}} </a>
+        <a mat-tab-link routerLink="/app-browse">Browse</a>
+        <a mat-tab-link routerLink="/app-your-music">Your Music</a>
+    </nav>
+    <img class="lazy-image loaded feed-identity-module__member-photo profile-rail-card__member-photo EntityPhoto-circle-5" height="64" width="64" src="https://media.licdn.com/dms/image/C4D03AQHcqUH63a5IHg/profile-displayphoto-shrink_800_800/0?e=1544659200&v=beta&t=WquePLOL2Gm6Bb8N5zezFHx_zHs1vLqgqt_Ib5vwuEg">
+</div>
+<router-outlet></router-outlet>
